@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>USER FORM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="">
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="user@mail.com">
+
+            <div>
+                <label>Gender</label>
+                <br>
+                <input type="radio" name="user_gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="user_gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="user_gender" value="others">
+                <label for="others">Others</label>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div>
+                <label>Stacks</label>
+                <br>
+                <input type="checkbox" id="stack1" value="Javascript">
+                <label for="stack1">Javascript</label>
+
+                <input type="checkbox" id="stack2" value="PHP">
+                <label for="stack2">PHP</label>
+
+                <input type="checkbox" id="stack3" value="JAVA">
+                <label for="stack3">JAVA</label>
+
+            </div>
+
+            <div>
+                <label> Role</label>
+                <select>
+                    <option value="owner">Owner</option>
+                    <option value="maintainer">Maintainer</option>
+                    <option value="developer">Developer</option>
+                    <option value="reader">Reader</option>
+                </select>
+            </div>
+
+        </div>
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
